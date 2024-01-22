@@ -1,0 +1,53 @@
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Adjust this value for the desired number of columns */
+  grid-gap: 5px; /* Adjust the gap between items */
+  
+}
+.checkout-btn {
+  color: #c3e20e;
+}
+.list {
+  list-style: none;
+  margin-top: 1.5em; 
+  margin-bottom: 1.5em; 
+}
+.footer {
+    height: 25vh;
+    background-color: #8084e7;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: inherit;
+}
+
+
+.parent {
+    background: mediumpurple;
+    padding: 1rem;
+  }
+  .child {
+    border: 1px solid indigo;
+    padding: 1rem;
+  }
+  .inline-block-child {
+    display: inline-block;
+  }
+
+.footer-text {
+    color: #fff;
+    opacity: 0.5;
+    text-align: center;
+    font-weight: 300;
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .footer-text {
+        width: 40%;
+    }
+}
